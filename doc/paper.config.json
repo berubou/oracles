@@ -1,0 +1,13 @@
+{
+    "alias": {
+        "about":"关于"
+    },
+    "title": "ORACLES",
+    "docPath": "/",
+    "output": "dist",
+    "theme": "plain",
+    "miniMap": false,
+    "backToTop": true,
+    "indicator": true,
+    "expandAll": true
+}
