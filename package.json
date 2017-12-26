@@ -1,0 +1,37 @@
+{
+  "name": "oracles",
+  "version": "1.0.0",
+  "description": "\"Oracle\" design document",
+  "main": "index.js",
+  "scripts": {
+    "commit": "node_modules/commitizen/bin/commitizen init cz-conventional-changelog --save --save-exact",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berubou/oracles.git"
+  },
+  "keywords": [
+    "ORACLES",
+    "front-end"
+  ],
+  "author": "FallRain (hfrain@outlook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/berubou/oracles/issues"
+  },
+  "homepage": "https://github.com/berubou/oracles#readme",
+  "devDependencies": {
+    "@commitlint/config-angular": "^5.1.1",
+    "commitizen": "^2.9.6",
+    "commitlint": "^5.2.5",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^0.14.3",
+    "simpler-paper": "^0.3.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
